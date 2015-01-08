@@ -6,8 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		880477E0182BEC0400E84846 /* homework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 880477DE182BEC0400E84846 /* homework.cpp */; };
+		880477E1182BEC0400E84846 /* homework.h in Headers */ = {isa = PBXBuildFile; fileRef = 880477DF182BEC0400E84846 /* homework.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		880477D7182BEBDA00E84846 /* libhomework.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libhomework.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		880477DE182BEC0400E84846 /* homework.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = homework.cpp; sourceTree = "<group>"; };
+		880477DF182BEC0400E84846 /* homework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +32,8 @@
 			isa = PBXGroup;
 			children = (
 				880477D8182BEBDA00E84846 /* Products */,
+				880477DE182BEC0400E84846 /* homework.cpp */,
+				880477DF182BEC0400E84846 /* homework.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +52,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880477E1182BEC0400E84846 /* homework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +107,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880477E0182BEC0400E84846 /* homework.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
